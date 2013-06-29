@@ -1,0 +1,12 @@
+<Alloy>
+	<Window class="container">
+		<View id="addTeams">
+		<TextField id="textCity"></TextField>
+		<TextField id="textName"></TextField>
+		<Button id="addButton" onClick="addTeam"></Button>
+	</View>
+	<TableView id="table" dataCollection="baseball">
+		<Require src="row"></Require>
+	</TableView>
+	</Window>
+</Alloy>

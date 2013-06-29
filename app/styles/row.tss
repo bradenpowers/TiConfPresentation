@@ -1,0 +1,9 @@
+".container": {
+	backgroundColor: "white"
+},
+"#city":{
+left: 10
+},
+"#name":{
+	right: 10
+}

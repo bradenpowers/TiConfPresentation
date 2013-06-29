@@ -1,0 +1,7 @@
+<Alloy>
+	
+		<TableViewRow id="row">
+			<Label id="city" text="{city}"></Label>
+			<Label id="name" text="{name}"></Label>
+		</TableViewRow>
+</Alloy>

@@ -1,0 +1,45 @@
+".container": {
+	backgroundColor:"blue"
+},
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+},
+"#addTeam":
+{
+	top: 20
+},
+"#textCity":
+{
+	top: 10,
+	hintText: 'Enter City',
+	backgroundColor: 'white',
+	borderRadius: 0.5,
+	width: '70%'
+},
+"#textName":
+{
+	top:60,
+	hintText: 'Enter Team Name',
+	backgroundColor: 'white',
+	borderRadius: 0.5,
+	width: '70%'
+},
+"#addButton":
+{
+	top: 110,
+	title:'Add New Team',
+    backgroundColor:'red',
+    width:'150',
+    height:50,
+    color: 'white',
+    style:'none'
+},
+"#table": {
+	bottom: 30,
+	width: '80%',
+	height: 200,
+	scrollable: true
+}
+
